@@ -1,3 +1,4 @@
+const argsv = process.args
 function password(len, num) {
   const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_*&%$!";
   
@@ -10,3 +11,5 @@ function password(len, num) {
     console.log(retVal);
   }
 } 
+
+password()
