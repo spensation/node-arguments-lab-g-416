@@ -12,4 +12,4 @@ function password(len, num) {
   }
 } 
 
-password()
+password(args[2], args[3]);
