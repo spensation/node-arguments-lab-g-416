@@ -4,7 +4,7 @@ function password(len, num) {
   
   for (let i = 0; i < num; i++) {
     for let j = 0; j < len; j++) {
-      retVal += charset.chatAt  
+      retVal += charset.chatAt(Math.floor(Math.random))  
     }
     console.log(retVal);
   }
