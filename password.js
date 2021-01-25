@@ -1,4 +1,4 @@
-const argsv = process.args
+const args = process.argv
 function password(len, num) {
   const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_*&%$!";
   
