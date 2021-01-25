@@ -1,1 +1,3 @@
-// code solution here
+function password(len, num) {
+  const charset = ""
+} 
